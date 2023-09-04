@@ -1,0 +1,207 @@
+/* Universal Styles to reset everything */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* container styling */
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* nav bar styling */
+
+#nav {
+  display: flex;
+  flex-direction: column;
+}
+
+#nav1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+#logoTitle {
+  display: flex;
+  align-items: center;
+}
+
+#logoTitle img {
+  background-color: #00d1b2;
+  border-radius: 8px;
+  margin-right: 10px;
+  width: 40px;
+}
+
+#commande {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  width: 700px;
+}
+
+#login {
+  border: none;
+  font-size: medium;
+  background: none;
+  width: 70px;
+  height: 30px;
+}
+
+#shop {
+  border: none;
+  background: none;
+  width: 40px;
+  height: 30px;
+}
+
+#shop img {
+  width: 30px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 560px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.search img {
+  position: absolute;
+  width: 30px;
+  margin-left: 520px;
+}
+
+#nav2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+#nav2 h4 a {
+  color: black;
+  text-decoration: none;
+}
+
+/* main container styling */
+
+#title {
+  font-size: xx-large;
+  font-family: sans-serif;
+  padding: 30px 13%;
+}
+
+/* first part styling */
+
+#first {
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  height: 300px;
+}
+
+#discover {
+  display: flex;
+  background-color: #00d1b2;
+  margin-right: 20px;
+}
+
+#discover2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#discover p {
+  color: white;
+  font-size: xx-large;
+  margin: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#soothing {
+  display: flex;
+  align-items: center;
+  background-color: #00d1b2;
+  height: 62px;
+  color: white;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 10%;
+}
+
+/* second part styling */
+
+#second {
+  display: flex;
+  justify-content: space-around;
+  background-color: #a9e7d7;
+  height: 150px;
+  margin-top: 20px;
+  padding: 70px 0;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items img {
+  width: 120px;
+  border-radius: 70px;
+  margin-bottom: 20px;
+}
+
+.items p {
+  font-size: larger;
+}
+
+#description {
+  display: flex;
+  justify-content: space-around;
+}
+
+#description p {
+  font-size: larger;
+}
+
+/* popup cockies styling */
+
+#popup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid black;
+  padding: 10px;
+  bottom: 0px;
+  position: fixed;
+  width: 880px;
+}
+
+#popup p {
+  font-size: 16px;
+  width: 600px;
+}
+
+p + button {
+  background-color: #00d1b2;
+  box-shadow: 3px 3px black;
+  font-size: 14px;
+  padding: 5px;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
